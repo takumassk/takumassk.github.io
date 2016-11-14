@@ -1,0 +1,71 @@
+＊{
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  width:100%;
+}
+
+header {
+  background-image: url("beach.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 0px;
+}
+
+
+header img {
+  width: 100%;
+}
+
+#logo {
+  width: auto;
+}
+
+.navbar{
+  margin:0;
+  border-radius:0;
+}
+
+.header{
+  margin:0;
+  padding:0;
+}
+
+.navbar-header{
+    margin: 0;
+    padding:0;
+}
+
+.container-fluid{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#imgtitle {
+  text-align: center;
+	position:	relative; 
+	top: -240px;
+	color: #fff;
+}
+
+section {
+  text-align: center
+}
+
+.row {
+  text-align: center
+}
+
+.plogo {
+  margin-top: 50px;
+}
+
+footer {
+  font-size: 93%;
+  text-align: center;
+  color: #666;
+}
