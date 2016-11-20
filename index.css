@@ -7,12 +7,13 @@
   width:100%;
 }
 
-header {
-  background-image: url("beach.jpg");
+header img {
+  /*background-image: url("beach.jpg");*/
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 0px;
+  position:relative;
 }
 
 
@@ -43,13 +44,20 @@ header img {
     text-align: center;
     margin: 0;
     padding: 0;
+    padding-bottom: -100;
+}
+
+.header-wrapper {
+	position:	relative;
 }
 
 #imgtitle {
   text-align: center;
-	position:	relative; 
-	top: -240px;
+	position:	absolute;
+	top: 50%;
+	left: 50%;
 	color: #fff;
+	margin-left: -136px;
 }
 
 section {
@@ -61,11 +69,24 @@ section {
 }
 
 .plogo {
-  margin-top: 50px;
+  margin-top: 20px;
+  border: 5px solid #ccc;
+  border-radius: 100%;
 }
 
 footer {
+  background-color: #ccc;
   font-size: 93%;
   text-align: center;
   color: #666;
+}
+
+row {
+  background-color: #ccc;
+}
+
+#profile-background{
+  background-color: #f0f8ff;
+  text-align: center;
+  width: 100%;
 }
